@@ -22,7 +22,7 @@ My contributions in this fork are
 
 ---
 
-Want to see what my predecessors' iterations looked like?
+Want to see what my predecessors' iterations looked like? Click thumbnails below for external YouTube links.
 
 [![Original BlameTheNetwork NetPi](https://img.youtube.com/vi/gx0Vl1ptqbo/0.jpg)](https://youtu.be/gx0Vl1ptqbo "Original BlameTheNetwork NetPi")
 
