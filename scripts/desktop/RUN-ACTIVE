@@ -1,0 +1,3 @@
+/opt/netpi/scripts/netmode.sh active &
+/opt/netpi/scripts/controls/active.sh &
+exit

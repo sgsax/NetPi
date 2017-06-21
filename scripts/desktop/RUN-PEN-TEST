@@ -1,0 +1,3 @@
+/opt/netpi/scripts/netmode.sh pentest &
+/opt/netpi/scripts/controls/pentest.sh &
+exit
