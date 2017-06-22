@@ -1,46 +1,5 @@
 <?PHP
-    if (isset($_GET['function']))
-    {
-         $function = $_GET['function'];
-		 if($function == "lldp")
-		 {
-		 	exec('lxterminal -e /opt/netpi/scripts/lldpdetails.sh');
-		 }
-		 elseif($function == "cdp")
-		 {
-		 	exec('lxterminal -e /opt/netpi/scripts/cdpdetails.sh');
-		 }
-		 elseif($function == "draw")
-		 {
-		 	exec('dia &');
-		 }
-		 elseif($function == "wlanfix")
-		 {
-		 	exec('lxterminal -e /opt/netpi/scripts/netwake.sh');
-		 }
-		 elseif($function == "notepad")
-		 {
-		 	exec('/opt/netpi/scripts/notepad.sh');
-		 }
-		 elseif($function == "int")
-		 {
-		 	exec('/opt/netpi/scripts/gnet-if.sh');
-		 }
-		 elseif($function == "pentest")
-		 {
-		 	exec('/opt/netpi/scripts/netmode.sh pentest');
-			echo "<meta http-equiv='refresh' content='3; URL=http://127.0.0.2/netpi/pentest' />";
-		 }
-		 elseif($function == "active")
-		 {
-			echo "<meta http-equiv='refresh' content='3; URL=http://127.0.0.2/netpi/active' />";
-			exec('lxterminal -e /opt/netpi/scripts/netmode.sh active &');
-		 }
-		 elseif($function == "power")
-		 {
-		 	exec('sudo init 0');
-		 }
-    }
+    require_once "../../netpi.php";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

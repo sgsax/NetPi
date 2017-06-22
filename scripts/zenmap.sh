@@ -1,3 +1,3 @@
-#matchbox-keyboard extended &
-lxterminal --display=:0 -e zenmap
+matchbox-keyboard extended &
+zenmap
 exit

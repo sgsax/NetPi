@@ -1,2 +1,0 @@
-wireshark
-exit
