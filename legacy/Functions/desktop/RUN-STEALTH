@@ -1,3 +1,0 @@
-/share/scripts/netmode.sh stealth &
-/share/scripts/controls/stealth.sh &
-exit
