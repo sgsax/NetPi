@@ -4,8 +4,9 @@
 // Global configuration vars are set here
 //
 
-global $script_path = "/opt/netpi/scripts/";
-global $log_path = "/var/log/netpi";
+$script_path = "/nettools/NetPi/scripts/";
+$log_path = "/var/log/netpi";
+global $script_path, $log_path;
 
 // used by main pages to invoke tests
 function run_func($func) {
