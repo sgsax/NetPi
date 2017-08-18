@@ -4,7 +4,7 @@ require_once "../../netpi.php";
 
 if (isset($_GET['function'])) {
     $function = $_GET['function'];
-    run_func $function;
+    run_func ($function);
 }
 
 ?>
@@ -31,5 +31,5 @@ body {
 </body>
 </html>
 <!---
-The worst thing about broadcast storm jokes is that everyone’s already heard them a hundred times.
+The worst thing about broadcast storm jokes is that everyoneâ€™s already heard them a hundred times.
 --->
