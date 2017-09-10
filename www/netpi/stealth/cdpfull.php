@@ -41,7 +41,7 @@ $result = fopen($file, "r") or die("Unable to open file!");
 while(!feof($result)) {
   echo fgets($result) . "<br>";
 }
-fclose($myfile);
+fclose($result);
 
 
 ?>
