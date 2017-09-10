@@ -1,10 +1,10 @@
 <?PHP
 
-require_once "../netpi.php";
+require_once "../../netpi.php";
 
 if (isset($_GET['function'])) {
     $function = $_GET['function'];
-    run_func $function;
+    run_func ($function);
 }
 
 ?>

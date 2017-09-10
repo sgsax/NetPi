@@ -27,7 +27,7 @@ body {
   <p>
   <?php
   $cmd = 'bash -x lldp.sh';
-  echo "<pre>$output</pre>";
+  //echo "<pre>$output</pre>";
  
 while (@ ob_end_flush()); // end all output buffers if any
 
@@ -48,5 +48,5 @@ echo '</pre>';
 </body>
 </html>
 <!---
-I dressed up as a UDP packet… I don’t think anyone got it, but I couldn’t tell.
+I dressed up as a UDP packetâ€¦ I donâ€™t think anyone got it, but I couldnâ€™t tell.
 --->

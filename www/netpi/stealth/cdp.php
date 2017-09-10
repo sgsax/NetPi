@@ -26,7 +26,7 @@ body {
   <p>
   <?php
   $cmd = 'sudo bash -x cdp.sh';
-  echo "<pre>$output</pre>";
+  //echo "<pre>$output</pre>";
  
 while (@ ob_end_flush()); // end all output buffers if any
 
